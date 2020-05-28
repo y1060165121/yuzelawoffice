@@ -2,30 +2,48 @@
 <html>
   <head>
     <title>玉泽律师事务所</title>
-     <meta charset="UTF-32">
+    <meta charset="UTF-32">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
   </head>
   <body>
 
-    <img src="img/yuzelogo.png" alt="yuze.com" width="10%" height="10%">
-    <h1>甘肃玉泽律师事务所</h1>
-    <a href="https://www.w3schools.com">首页</a>
-    <a href="https://www.w3schools.com">关于我们</a>
-    <a href="https://www.w3schools.com">行业领域</a>
-    <a href="https://www.w3schools.com">专业人士</a>
-    <a href="https://www.w3schools.com">新闻咨询</a>
-    <a href="https://www.w3schools.com">联系我们</a>
+    <a href="#" style="position:absolute;margin-left: 25px;">
+     <img src="{{ url_for('static', filename='img/mp-1_copy.png') }}" alt="yuze.com"  height="150px">
+    </a>
+    <nav class="navbar navbar-expand-xl navbar-dark" style="z-index:-10;background-color: #1c2634;height:70px">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto" style="margin-left: 200px">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">首页</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">关于我们</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">行业领域</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">新闻资讯</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">联系我们</a>
+      </li>
+    </ul>
+      </div>
+    </nav>
 
 
-    <p></p>
-    <p></p>
-
-    <button ></button>
-    <p id='paragraph1' title="I'm a tooltip">
-      
 
 
 
 
-    </p>
+
   </body>
 </html>
