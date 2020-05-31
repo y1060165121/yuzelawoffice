@@ -1,6 +1,16 @@
+body{
+  font-family: 微软雅黑;
+  /* padding-top: 70px;  */
+}
+.navbar{
+  background-color: #1c2634;
+  height:70px;
+  position: fixed;
+  width: 100%;
+}
 .nav-item{
   margin-right: 30px;
-  font-family: 微软雅黑;
+
   font-size: 13px;
   color: white;
 }
@@ -18,4 +28,23 @@
   /* background-color: red; */
   border: 2px solid black;
   height: 150px;
+    border-radius: 5px;
 }
+
+.content_container{
+  padding-top: 70px;
+}
+
+#wechat_logo{
+
+    background-color: #1c2634;
+    opacity: 1;
+    margin: auto;
+    margin-top: 7px;
+    /* width: 50%; */
+    margin-right: 15px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: lightgreen;
+} 
