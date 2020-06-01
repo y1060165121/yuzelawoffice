@@ -1,12 +1,14 @@
 body{
   font-family: 微软雅黑;
   /* padding-top: 70px;  */
+  overflow-x: hidden;
 }
 .navbar{
   background-color: #1c2634;
   height:70px;
   position: fixed;
   width: 100%;
+  z-index:9;
 }
 .nav-item{
   margin-right: 30px;
@@ -31,9 +33,7 @@ body{
     border-radius: 5px;
 }
 
-.content_container{
-  padding-top: 70px;
-}
+
 
 #wechat_logo{
 
