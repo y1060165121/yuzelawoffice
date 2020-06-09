@@ -4,7 +4,7 @@
     <title>玉泽律师事务所</title>
     <link rel="icon" href="{{ url_for('static', filename='img/mp-1_copy.png') }}">
     <meta charset="UTF-32">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/navbar.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/slidershow.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/footer.css') }}">
@@ -15,9 +15,13 @@
     <script src="{{ url_for('static', filename='javascript/mdb.js') }}"></script> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- <script src="{{ url_for('static', filename='javascript/noframework.waypoints.min.js') }}"></script> -->
+    <!-- <script src="{{ url_for('static', filename='javascript/jquery.waypoints.min.js') }}"></script> -->
 
+    <link href="{{ url_for('static', filename='css/mdb.min.css') }}" rel="stylesheet">
+    <script type="text/javascript" src="{{ url_for('static', filename='javascript/mdb.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='javascript/wow.min.js') }}"></script>
 
   </head>
   <body>
@@ -32,26 +36,26 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto" style="margin-left: 200px">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a href="/" class="nav-link">首页</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a href="#aboutus" class="nav-link">关于我们</a>
           </li>
-          <li class="nav-item active" id='zhuanyelingyu'>
+          <li class="nav-item" id='zhuanyelingyu'>
             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false" role="button" id="zhuanyelingyu_link">专业领域</a>
             <div class="dropdown-menu" id='zhuanyelingyu_dropdown' aria-labelledby="zhuanyelingyu_link">
               <!-- Dropdown menu links -->
               hi
             </div>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#">新闻资讯</a>
           </li>
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="#people">专业人员</a>
           </li>
-          <li class="nav-item active" style="margin-right: 200px">
+          <li class="nav-item" style="margin-right: 200px">
             <a class="nav-link" href="/contactus" >联系我们</a>
           </li>
 
@@ -59,11 +63,12 @@
         <a href="/"><img src="{{ url_for('static', filename='img/wechat-3.jpg') }}" alt="yuze.com"  id='wechat_logo' height="20px"></a>
       </div>
     </nav>
-    <script src="{{ url_for('static', filename='javascript/navbar.js') }}"></script>
     <div class="content_container">
 
     <!-- {% include "primaryView.html" ignore missing %} -->
     {% block content %} {% endblock %}
+    <script src="{{ url_for('static', filename='javascript/navbar.js') }}"></script>
+
     </div>
 
 
