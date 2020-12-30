@@ -11,8 +11,8 @@
 
       <!-- <a title='Home' class="mr-4" style="height: 100%; width:120px"> -->
       <v-img :src="require('@/assets/yuzelogo_2.jpg')"
-             :max-height="50 + marginBottom*1.6"
-             :max-width="50 + marginBottom*1.6"
+             :max-height="50 + marginBottom*4.5"
+             :max-width="50 + marginBottom*4.5"
              contain
 
              class="mr-4 ml-10"

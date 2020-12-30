@@ -90,6 +90,12 @@
           {
             src: require('@/assets/homepage_2.jpg')
           },
+          {
+            src: require('@/assets/homepage_3.jpg')
+          },
+          {
+            src: require('@/assets/homepage_4.jpg')
+          },
 
         ],
         direction: 'top',
