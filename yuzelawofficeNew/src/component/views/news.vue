@@ -15,12 +15,12 @@
    >
      <v-card
        class="ma-6"
-       :height="active ? '300' : '200'"
-       :width="active ? '300' : '200'"
+       :height="active ? '30vh' : '25vh'"
+       :width="active ? '30vh' : '25vh'"
        @click="toggle"
      >
-     <v-img :src="item.src" :height="active ? '300' : '200'"
-      :width="active ? '300' : '200'">
+     <v-img :src="item.src" :height="active ? '30vh' : '25vh'"
+      :width="active ? '30vh' : '25vh'">
 
      </v-img>
        <v-row
@@ -39,7 +39,7 @@
  <v-expand-transition>
    <v-sheet
      v-if="model != null"
-     height="200"
+     height="30vh"
      tile
      class="mt-3"
      color="rgba(255,255,255, 0.4)"
