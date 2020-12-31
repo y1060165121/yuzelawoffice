@@ -7,13 +7,15 @@
                elevate-on-scroll
                dark
                prominent
-               scroll-threshold="40">
+               scroll-threshold="40" style="max-height:13vh">
 
       <!-- <a title='Home' class="mr-4" style="height: 100%; width:120px"> -->
       <v-img :src="require('@/assets/yuzelogo_2.jpg')"
              :max-height="5 + marginBottom*0.5 + 'vh'"
              :max-width="5 + marginBottom*0.5 + 'vh'"
              contain
+             min-height="47px"
+             min-width="47px"
 
              class="mr-4 ml-10"
              ></v-img>
