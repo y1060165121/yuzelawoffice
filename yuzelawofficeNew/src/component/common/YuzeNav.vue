@@ -30,11 +30,13 @@
 
         <router-link to='/professionals' class='white--text  mr-10' style="text-decoration: none">专业人员</router-link>
 
+        <router-link to='/' class='white--text  mr-10' style="text-decoration: none">联系我们</router-link>
+
       </v-toolbar-title>
 
       <v-spacer></v-spacer>
 
-      <v-btn icon>
+      <!-- <v-btn icon>
         <v-img :src="require('@/assets/wechat_new.jpg')"
                width="20px"
                align="center"
@@ -50,10 +52,10 @@
                justify="center"
                contain
                class="mr-2 ml-2"></v-img>
-      </v-btn>
+      </v-btn>-->
 
-      <v-btn icon>
-        <v-icon>mdi-dots-vertical</v-icon>
+      <v-btn icon >
+        <v-icon>mdi-magnify</v-icon>
       </v-btn>
 
     </v-app-bar>

@@ -1,6 +1,6 @@
 <template>
 
-  <v-footer color="#1C2634" padless>
+  <v-footer color="rgba(46, 49, 49, 0.6)" padless>
     <v-row justify="center" no-gutters>
       <v-btn v-for="link in links"
              :key="link"

@@ -1,6 +1,6 @@
 <template>
 
-  <div style="width: 80%; margin: auto; margin-top: 80px">
+  <div style="width: 80%; margin: auto; margin-top: 80px; padding-top: 125px">
     <v-tabs vertical>
       <div style="margin-top: 200px">
         <v-tab>
@@ -11,7 +11,7 @@
         </v-tab>
         <v-tab>
           <v-icon left>
-            mdi-lock
+            mdi-home
           </v-icon>
           服务范围
         </v-tab>

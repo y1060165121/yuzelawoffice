@@ -1,6 +1,6 @@
 <template>
 
-  <div class="mt-10" align="center" justify="center">
+  <div class="mt-10" align="center" justify="center" style="padding-top: 125px">
       <v-tabs v-model="tab"
               class="mb-6" >
               <v-spacer/>
@@ -15,6 +15,7 @@
         <v-tab-item>
           <v-card color="basil" flat>
             <AboutUs :allowAnimation="false"></AboutUs>
+            <Achievements></Achievements>
           </v-card>
         </v-tab-item>
         <v-tab-item>
@@ -30,12 +31,14 @@
 <script>
 import AboutUs from '@/component/views/aboutus.vue'
 import TimeLine from '@/component/views/timeline.vue'
+import Achievements from '@/component/views/achievements.vue'
 
   export default {
     name: 'AboutUsPage',
     components:{
       AboutUs,
-      TimeLine
+      TimeLine,
+      Achievements
     },
     data() {
       return {

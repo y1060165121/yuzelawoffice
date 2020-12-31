@@ -15,12 +15,12 @@
    >
      <v-card
        class="ma-6"
-       :height="active ? '400' : '300'"
-       :width="active ? '400' : '300'"
+       :height="active ? '300' : '200'"
+       :width="active ? '300' : '200'"
        @click="toggle"
      >
-     <v-img :src="item.src"  :height="active ? '400' : '300'"
-      :width="active ? '400' : '300'">
+     <v-img :src="item.src" :height="active ? '300' : '200'"
+      :width="active ? '300' : '200'">
 
      </v-img>
        <v-row
@@ -42,15 +42,16 @@
      height="200"
      tile
      class="mt-3"
+     color="rgba(255,255,255, 0.4)"
    >
      <v-row
        class="fill-height"
        align="center"
        justify="center"
      >
-       <h3 class="title">
-         Selected {{ model }}
-       </h3>
+     <div>
+         甘肃玉泽律师事务所成立于2017年7月15日，是以城乡规划、国土及城市管理政策研究、房地产项目疑难事务处理、房地产开发与物业销售、商铺租赁、工程建设、施工管理、后期物业管理服务及相关领域法律服务为主的律师事务所。作为以专业律师事务所为发展方向和业务要求的律所，凭借不断积累的业务经验，秉承诚信为本、专业至上、勤勉尽责、以客户为中心的服务理念，本所已为房地产行业的几十家政府、企业提供了常年或专项法律服务
+     </div>
      </v-row>
    </v-sheet>
  </v-expand-transition>

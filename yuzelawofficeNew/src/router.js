@@ -2,9 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HomePage from "@/component/HomePage.vue"
 import AboutUsPage from "@/component/views/aboutUsPage.vue"
-import Professionals from "@/component/views/professionals.vue"
+import ProfessionalsPage from "@/component/views/professionalsPage.vue"
 import FieldsPage from "@/component/views/fieldsPage.vue"
-import News from "@/component/views/news.vue"
+import NewsPage from "@/component/views/newsPage.vue"
 
 
 Vue.use(Router)
@@ -24,7 +24,7 @@ export default new Router({
   {
     path: "/professionals",
     name: 'professionals ',
-    component: Professionals
+    component: ProfessionalsPage
   },
   {
     path: "/fields",
@@ -34,7 +34,7 @@ export default new Router({
   {
     path: "/news",
     name: 'news ',
-    component: News
+    component: NewsPage
   }
 
   ]

@@ -1,7 +1,7 @@
 <template>
 
-  <div class="py-10" style="width: 80%; margin: auto;">
-    <v-slide-group show-arrows dark   v-model="model">
+  <div class="py-10" style="width: 60%; margin: auto;">
+    <v-slide-group show-arrows dark  center-active v-model="model">
 
       <v-slide-item v-for="(n, idx) in companyName"
                     :key="idx"
