@@ -21,7 +21,7 @@
       <div dark
            :style="{'height': '100vh', 'background-image' : 'url(' + require('@/assets/white_background.jpg') + ')'}"
            class="fill-height">
-        <v-row style="font-size: 36px;text-align:center; padding-top: 80px; padding-bottom: 50px">
+        <v-row style="font-size: 36px;text-align:center;  padding-top: 6vh;">
           <v-col>
             <span style="font-weight: 600; display: block">新闻资讯</span>
             <span style="font-size: 17px; display: block;">
@@ -37,7 +37,9 @@
         </v-row>
 
         <v-row>
+          <v-col>
           <News></News>
+        </v-col>
         </v-row>
 
       </div>
@@ -49,7 +51,7 @@
                   </section> -->
     <section>
       <v-parallax dark :src="require('@/assets/lanzhou_1_blur_light.jpg')" jumbotron style="height: 100vh; text-align: center">
-        <v-row style="font-size: 36px;text-align:center; padding-top: 80px;">
+        <v-row style="font-size: 36px;text-align:center; padding-top: 6vh;">
           <v-col>
             <span style="font-weight: 600; display: block">专业领域</span>
             <span style="font-size: 17px; display: block;">
@@ -64,7 +66,9 @@
           </v-col>
         </v-row>
         <v-row>
-          <Fields style="width: 70%; margin: auto"></Fields>
+          <v-col>
+          <Fields style="width: 70%;"></Fields>
+        </v-col>
         </v-row>
       </v-parallax>
     </section>
@@ -74,7 +78,7 @@
       <div dark
            :style="{'min-height': '100vh', 'background-image' : 'url(' + require('@/assets/white_background2.jpg') + ')', 'background-size': 'cover', 'position': 'relative'}"
            class="fill-height">
-        <v-row style="font-size: 36px;text-align:center; padding-top: 80px; padding-bottom: 50px">
+        <v-row style="font-size: 36px;text-align:center; padding-top: 6vh; padding-bottom: 3vh">
           <v-col>
             <span style="font-weight: 600; display: block">专业人员</span>
             <span style="font-size: 17px; display: block;">
