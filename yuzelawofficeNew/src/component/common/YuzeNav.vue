@@ -21,7 +21,7 @@
              ></v-img>
       <!-- </a> -->
 
-      <v-toolbar-title :style="{'fontSize': '16px', 'marginBottom': marginBottom + 'px'}" >
+      <v-toolbar-title :style="{'fontSize': '16px', 'marginBottom': 0 + marginBottom*0.1 + 'vh'}" >
         <!-- <a href="https://edge.ivideo.sina.com.cn/35505435402.mp4?KID=sina,viask&Expires=1609344000&ssig=cJUnC88psu&reqid=&r=video.sina.com.cn%2Fview%2F355054354.html">here</a> -->
         <router-link to='/' class='white--text mr-10 ml-10' style="text-decoration: none">首页</router-link>
         <router-link to='/about' class='white--text  mr-10' style="text-decoration: none">关于我们</router-link>

@@ -26,7 +26,7 @@
       </v-tab-item>
       <v-tab-item>
         <v-card flat>
-          <v-card-text>
+          <v-card-text >
           <ContentTreeView></ContentTreeView>
           </v-card-text>
         </v-card>
