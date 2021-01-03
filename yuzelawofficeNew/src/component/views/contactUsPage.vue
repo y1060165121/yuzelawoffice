@@ -1,8 +1,8 @@
 <template>
   <div dark
-       :style="{'min-height': '100vh', 'background-image' : 'url(' + require('@/assets/mp-3.png') + ')', 'background-size': 'cover', 'position': 'relative', 'margin-top': '110px'}"
+       :style="{'min-height': '100vh', 'background-image' : 'url(' + require('@/assets/mp-3.png') + ')', 'background-size': 'cover', 'position': 'relative', 'margin-top': '100px'}"
        class="fill-height">
-    <v-row style="font-size: 36px;text-align:center; padding-top: 6vh; padding-bottom: 3vh">
+    <v-row style="font-size: 36px;text-align:center; padding-top: 6vh; padding-bottom: 3vh" class="ma-0">
       <v-col>
         <span style="font-weight: 600; display: block">联系我们</span>
         <span style="font-size: 17px; display: block;">

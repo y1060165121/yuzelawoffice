@@ -8,8 +8,7 @@
                dark
                prominent
                :height="'100px'"
-               scroll-threshold="40"
-               style="max-height:13vh">
+               scroll-threshold="40">
 
       <!-- <a title='Home' class="mr-4" style="height: 100%; width:120px"> -->
       <v-img :src="require('@/assets/yuzelogo_2.jpg')"
