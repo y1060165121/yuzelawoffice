@@ -5,7 +5,7 @@
               class="mb-6" >
               <v-spacer/>
         <v-tab v-for="item in items"
-               :key="item" style="font-size: 20px">
+               :key="item" style="font-size: 20px; color:black">
           {{ item }}
         </v-tab>
         <v-spacer/>
@@ -15,7 +15,6 @@
         <v-tab-item>
           <v-card color="basil" flat>
             <AboutUs :allowAnimation="false"></AboutUs>
-            <Achievements></Achievements>
           </v-card>
         </v-tab-item>
         <v-tab-item>
@@ -24,6 +23,28 @@
           </v-card>
         </v-tab-item>
       </v-tabs-items>
+      <v-row style="font-size: 20px;text-align:center; padding-top: 6vh">
+        <v-col>
+          <v-tabs 
+                  class="mb-6" >
+                  <v-spacer/>
+            <v-tab
+                   style="font-size: 20px; color:black">
+              典型客户
+            </v-tab>
+            <v-spacer/>
+          </v-tabs>
+        </v-col>
+      </v-row>
+      <v-row style="padding-bottom: 5vh">
+        <v-col/>
+        <v-col class="col-lg-8 col-sm-10">
+          <Achievements></Achievements>
+      </v-col>
+      <v-col/>
+
+      </v-row>
+
   </div>
 
 </template>
@@ -51,3 +72,9 @@ import Achievements from '@/component/views/achievements.vue'
   }
 
 </script>
+
+<style>
+.v-tabs-slider{
+  background-color: black !important
+}
+</style>

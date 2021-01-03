@@ -5,6 +5,7 @@ import AboutUsPage from "@/component/views/aboutUsPage.vue"
 import ProfessionalsPage from "@/component/views/professionalsPage.vue"
 import FieldsPage from "@/component/views/fieldsPage.vue"
 import NewsPage from "@/component/views/newsPage.vue"
+import ContactUs from "@/component/views/contactUsPage.vue"
 
 
 Vue.use(Router)
@@ -35,7 +36,13 @@ export default new Router({
     path: "/news",
     name: 'news ',
     component: NewsPage
+  },
+  {
+    path: "/contactus",
+    name: 'contact us ',
+    component: ContactUs
   }
+
 
   ]
 })

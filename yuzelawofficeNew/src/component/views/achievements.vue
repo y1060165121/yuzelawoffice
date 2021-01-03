@@ -1,7 +1,7 @@
 <template>
 
-  <div class="py-10" style="width: 60%; margin: auto;">
-    <v-slide-group show-arrows dark  center-active v-model="model">
+  <div class="py-10" style=" margin: auto;">
+    <v-slide-group show-arrows center-active v-model="model">
 
       <v-slide-item v-for="(n, idx) in companyName"
                     :key="idx"
@@ -10,9 +10,8 @@
 
         <v-btn class="mx-2"
                :input-value="active"
-               active-class="purple white--text"
+               active-class="lightgrey"
                depressed
-               rounded
                @click="toggle">
           {{ n }}
         </v-btn>
