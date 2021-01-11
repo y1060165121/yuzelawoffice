@@ -4,7 +4,7 @@
     <v-card class="mr-4"
              v-animateOnScroll="{animation: 'fadeInRight', delay: 200}">
       <v-img :src="photoURL"
-             height="300px" ></v-img>
+              height="400px"></v-img>
 
       <v-card-title class="font-weight-black">
         {{name}}
@@ -15,7 +15,7 @@
       </v-card-subtitle>
 
       <v-card-actions>
-        <v-btn color="orange lighten-2" text @click="show = !show">
+        <v-btn text @click="show = !show" style="color: #C0AA7A">
           了解更多
         </v-btn>
 
