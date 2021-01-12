@@ -4,7 +4,7 @@
     <v-card class="mr-4"
              v-animateOnScroll="{animation: 'fadeInRight', delay: 200}">
       <v-img :src="photoURL"
-              height="400px"></v-img>
+              height="60vh"></v-img>
 
       <v-card-title class="font-weight-black">
         {{name}}
