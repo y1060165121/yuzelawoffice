@@ -49,7 +49,7 @@ import { animateOnScroll } from "mdbvue";
     props:{
       allowAnimation:{
         type: Boolean,
-        default: true
+        default: false
       }
     },
     data() {

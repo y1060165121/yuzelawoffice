@@ -67,7 +67,7 @@
         </v-row>
         <v-row>
           <v-col>
-          <Fields style="width: 70%;"></Fields>
+          <Fields style="width: 70%;" :allowAnimation="showAnimation"></Fields>
         </v-col>
         </v-row>
       </v-parallax>
@@ -172,6 +172,7 @@
     data() {
       return {
         model: 0,
+        showAnimation: true,
         carouselItems: [
           {
             src: require('@/assets/homepage_1.jpg'),

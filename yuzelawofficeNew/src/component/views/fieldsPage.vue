@@ -20,7 +20,7 @@
       <v-tab-item>
         <v-card flat>
           <v-card-text>
-            <Fields style="width: 90%; margin: auto"></Fields>
+            <Fields style="width: 90%; margin: auto" :showAnimation="showAnimation"></Fields>
           </v-card-text>
         </v-card>
       </v-tab-item>
@@ -45,6 +45,11 @@
     components: {
       Fields,
       ContentTreeView
+    },
+    data (){
+      return{
+        showAnimation: false
+      }
     }
   }
 
