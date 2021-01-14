@@ -1,8 +1,8 @@
 <template>
 
-  <div style="width: 80%; margin: auto; margin-top: 80px; padding-top: 125px">
+  <div style="width: 80%; margin: auto; margin-top: 7vh; padding-top: 125px">
     <v-tabs vertical>
-      <div style="margin-top: 200px">
+      <div style="margin-top: 180px">
         <v-tab>
           <v-icon left>
             mdi-account
@@ -20,7 +20,7 @@
       <v-tab-item>
         <v-card flat>
           <v-card-text>
-            <Fields style="width: 90%; margin-bottom: 10%" :showAnimation="showAnimation"></Fields>
+            <Fields style="width: 100%; margin-bottom: 10%; text-align: center" :showAnimation="showAnimation"></Fields>
           </v-card-text>
         </v-card>
       </v-tab-item>

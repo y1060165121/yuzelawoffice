@@ -3,7 +3,7 @@
   <v-container>
     <v-row>
       <v-col cols="6" v-animateOnScroll="allowAnimation ? 'fadeInLeft' : false" class="left-item">
-        <vue-flip :active-hover="true" width="30vw" height="32vh" transition="1s" >
+        <vue-flip :active-hover="true" width="30vw" height="32vh" transition="1.5s" >
           <template v-slot:front class="front">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
                     height="32vh"
@@ -86,7 +86,7 @@
                     class="rounded-xl"
                     >
                     <v-icon style="padding-top:5vh;font-size:10vh">mdi-boom-gate</v-icon>
-                    <div style="font-size:2.5vh;padding-top:4vh">商铺租赁、工程建设、施工管理服务及相关领域</div>
+                    <div style="font-size:2.5vh;padding-top:4vh">商铺租赁、工程建设、施工管理服务</div>
         </v-card>
           </template>
           <template v-slot:back class="back">
@@ -95,7 +95,7 @@
                     width="30vw"
                     class="rounded-xl"
                     >
-                    <div style="font-size:2.5vh;padding-top:5vh">商铺租赁、工程建设、施工管理服务及相关领域 back</div>
+                    <div style="font-size:2.5vh;padding-top:5vh">商铺租赁、工程建设、施工管理服务 back</div>
             </v-card>
           </template>
         </vue-flip>
@@ -158,10 +158,10 @@ import VueFlip from 'vue-flip';
 </script>
 <style>
 .left-item {
-  padding-left:5vw !important
+  padding-left:5% !important
 }
 .right-item {
-  padding-right:5vw !important
+  padding-right:5% !important
 }
 
 </style>
