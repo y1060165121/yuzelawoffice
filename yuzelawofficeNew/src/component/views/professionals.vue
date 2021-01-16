@@ -1,7 +1,7 @@
 <template>
 
   <div>
-    <v-row class="mb-3 mt-3" align="center" justify="center" style="margin-left: 15%; margin-right: 15%">
+    <v-row class="mb-3 mt-3" align="center" justify="left" style="margin-left: 15%; margin-right: 15%">
       <v-col class="col-lg-4 col-md-4 col-sm-5">
         <BusinessCard :photo="require('@/assets/wangyonghai_1.jpeg')"></BusinessCard>
       </v-col>
@@ -36,6 +36,13 @@
                       :name="'唐云霞'"
                       :introduce="'专职律师'"
                       :fullIntro="''"></BusinessCard>
+      </v-col>
+
+      <v-col class="col-lg-4 col-md-4 col-sm-5">
+        <BusinessCard :photo="require('@/assets/zhanghuiliang_1.jpeg')"
+                      :name="'张惠亮'"
+                      :introduce="'专职律师'"
+                      :fullIntro="'甘肃玉泽律师事务所专职律师。自执业以来长期专注于企业不良资产的收购与处置；房地产开发项目的专项法律服务；合同类的诉讼与非诉讼法律业务；民事案件的执行法律服务。并为多家企、事业单位提供法律顾问。'"></BusinessCard>
       </v-col>
     </v-row>
   </div>

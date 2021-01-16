@@ -42,9 +42,9 @@
      v-if="model != null"
      height="30vh"
      tile
-     class="mt-3 rounded-xl"
+     class="mt-3"
 
-     style="border-style: inset;border-width: 2px; border-color:rgba(88, 82, 48, 0.07);background-color:rgba(88, 82, 48, 0.07)"
+     style="border-style: none;border-width: 5px; border-color:rgba(88, 82, 48, 0.07);background-color:rgba(250, 250, 247,0.9)"
 
    >
      <v-row

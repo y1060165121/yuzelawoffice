@@ -19,9 +19,9 @@
     <section>
 
       <div dark
-           :style="{'height': '100vh', 'background-image' : 'url(' + require('@/assets/white_background.jpg') + ')'}"
+           :style="{'height': '100vh', 'background-image' : 'url(' + require('@/assets/white_background_2.jpg') + ')'}"
            class="fill-height">
-        <v-row style="font-size: 36px;text-align:center;  padding-top: 6vh;">
+        <v-row style="font-size: 36px;text-align:center;  padding-top: 6vh; ">
           <v-col>
             <span style="font-weight: 600; display: block">新闻资讯</span>
             <span style="font-size: 17px; display: block;">
