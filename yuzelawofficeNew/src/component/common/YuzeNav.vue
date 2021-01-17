@@ -62,7 +62,7 @@
     </v-app-bar>
     <v-sheet id="scrolling-techniques-7">
       <v-container>
-        <BottomButton></BottomButton>
+        <BottomButton style="display: none"></BottomButton>
 
         <router-view></router-view>
 
