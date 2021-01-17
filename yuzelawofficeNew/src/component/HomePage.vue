@@ -7,7 +7,7 @@
                        :key="i"
                        :src="item.src">
         <div class="carousel_gradient"
-             style="font-size: 3vw;  margin-left: 10vw; margin-top: 45vh;display:inline-block"
+             style="font-size: 8vh;  margin-left: 10vw; margin-top: 45vh;display:inline-block"
              align="center"
              justify="center">
           <span>{{item.word}}</span>

@@ -2,7 +2,7 @@
 
   <v-card class="overflow-hidden rounded-0" flat>
 
-    <v-app-bar fixed shrink-on-scroll
+    <v-app-bar fixed shrink-on-scroll app
                color="rgba(46, 49, 49, 0.6)"
                elevate-on-scroll
                dark

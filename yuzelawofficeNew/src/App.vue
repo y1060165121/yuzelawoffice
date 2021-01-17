@@ -6,6 +6,7 @@
 
 
       <YuzeFooter app style="position: absolute; bottom: 0; width: 100%; height: 110px"></YuzeFooter>
+
     </v-main>
   </v-app>
 </template>

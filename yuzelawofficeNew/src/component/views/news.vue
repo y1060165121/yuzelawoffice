@@ -40,7 +40,7 @@
  <v-expand-transition>
    <v-sheet
      v-if="model != null"
-     height="30vh"
+     
      tile
      class="mt-3"
 

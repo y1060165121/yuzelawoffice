@@ -2,12 +2,12 @@
 
   <v-container>
     <v-row>
-      <v-col cols="6" v-animateOnScroll="allowAnimation ? 'fadeInLeft' : false" class="left-item">
-        <vue-flip :active-hover="true" width="30vw" height="32vh" transition="1.5s" >
+      <v-col v-animateOnScroll="allowAnimation ? 'fadeInLeft' : false" class="col-lg-6 col-md-6 col-sm-6" cols="12">
+        <vue-flip :active-hover="true" width="100%" :height="vFlitpHeight" transition="1.5s" >
           <template v-slot:front class="front">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
-                    height="32vh"
-                    width="30vw"
+                    :height="vFlitpHeight"
+                    width="100%"
                     class="rounded-xl"
                     >
                     <v-icon style="padding-top:5vh;font-size:10vh">mdi-bookshelf</v-icon>
@@ -16,8 +16,8 @@
           </template>
           <template v-slot:back class="back">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
-                    height="32vh"
-                    width="30vw"
+                    :height="vFlitpHeight"
+                    width="100%"
                     class="rounded-xl"
                     >
                     <div style="font-size:2.5vh;padding-top:5vh">城乡规划、国土及城市管理政策研究 back</div>
@@ -26,12 +26,12 @@
         </vue-flip>
 
       </v-col>
-      <v-col cols="6" v-animateOnScroll="allowAnimation ? 'fadeInRight' : false" class="right-item">
-        <vue-flip :active-hover="true" width="30vw" height="32vh" transition="1s" >
+      <v-col  v-animateOnScroll="allowAnimation ? 'fadeInRight' : false" class="col-lg-6 col-md-6 col-sm-6" cols="12">
+        <vue-flip :active-hover="true" width="100%" :height="vFlitpHeight" transition="1s" >
           <template v-slot:front class="front">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
-                    height="32vh"
-                    width="30vw"
+                    :height="vFlitpHeight"
+                    width="100%"
                     class="rounded-xl"
                     >
                     <v-icon style="padding-top:5vh;font-size:10vh">mdi-check-network</v-icon>
@@ -41,8 +41,8 @@
 
           <template v-slot:back class="back">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
-                    height="32vh"
-                    width="30vw"
+                    :height="vFlitpHeight"
+                    width="100%"
                     class="rounded-xl"
                     >
                     <div style="font-size:2.5vh;padding-top:5vh">房地产项目疑难事务处理 back</div>
@@ -53,12 +53,12 @@
       </v-col>
     </v-row>
     <v-row>
-      <v-col cols="6" v-animateOnScroll="allowAnimation ? 'fadeInLeft' : false" class="left-item" >
-        <vue-flip :active-hover="true" width="30vw" height="32vh" transition="1s" >
+      <v-col v-animateOnScroll="allowAnimation ? 'fadeInLeft' : false" class="col-lg-6 col-md-6 col-sm-6" cols="12">
+        <vue-flip :active-hover="true" width="100%" :height="vFlitpHeight" transition="1s" >
           <template v-slot:front class="front">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
-                    height="32vh"
-                    width="30vw"
+                    :height="vFlitpHeight"
+                    width="100%"
                     class="rounded-xl"
                     >
                     <v-icon style="padding-top:5vh;font-size:10vh">mdi-domain</v-icon>
@@ -67,8 +67,8 @@
           </template>
           <template v-slot:back class="back">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
-                    height="32vh"
-                    width="30vw"
+                    :height="vFlitpHeight"
+                    width="100%"
                     class="rounded-xl"
                     >
                     <div style="font-size:2.5vh;padding-top:5vh">房地产开发与物业管理 back</div>
@@ -77,22 +77,22 @@
         </vue-flip>
 
       </v-col>
-      <v-col cols="6" v-animateOnScroll="allowAnimation ? 'fadeInRight' : false" class="right-item" >
-        <vue-flip :active-hover="true" width="30vw" height="32vh" transition="1s" >
+      <v-col  v-animateOnScroll="allowAnimation ? 'fadeInRight' : false" class="col-lg-6 col-md-6 col-sm-6" cols="12" >
+        <vue-flip :active-hover="true" width="100%" :height="vFlitpHeight" transition="1s" >
           <template v-slot:front class="front">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
-                    height="32vh"
-                    width="30vw"
+                    :height="vFlitpHeight"
+                    width="100%"
                     class="rounded-xl"
                     >
-                    <v-icon style="padding-top:5vh;font-size:10vh">mdi-boom-gate</v-icon>
+                    <v-icon :style="{'padding-top':'5vh','font-size':'10vh'}">mdi-boom-gate</v-icon>
                     <div style="font-size:2.5vh;padding-top:4vh">商铺租赁、工程建设、施工管理服务</div>
         </v-card>
           </template>
           <template v-slot:back class="back">
             <v-card style="background-color:rgb(242, 236, 227,0.5);border-style: outset; border-width: 2px; border-color:rgba(210, 201, 156, 0.61)"
-                    height="32vh"
-                    width="30vw"
+                    :height="vFlitpHeight"
+                    width="100%"
                     class="rounded-xl"
                     >
                     <div style="font-size:2.5vh;padding-top:5vh">商铺租赁、工程建设、施工管理服务 back</div>
@@ -122,6 +122,19 @@ import VueFlip from 'vue-flip';
         type: Boolean,
         default: false
       }
+    },
+    computed: {
+      vFlitpHeight: function() {
+        console.log(this.$vuetify.breakpoint.name)
+        switch (this.$vuetify.breakpoint.name) {
+          case 'xs': return '18vh'
+          case 'sm': return '32vh'
+          case 'md': return '32vh'
+          case 'lg': return '32vh'
+          case 'xl': return '32vh'
+        }
+        return 100
+      },
     },
     data() {
       return {
@@ -162,6 +175,12 @@ import VueFlip from 'vue-flip';
 }
 .right-item {
   padding-right:5% !important
+}
+.front {
+  width: 100%
+}
+.back{
+  width: 100%
 }
 
 </style>

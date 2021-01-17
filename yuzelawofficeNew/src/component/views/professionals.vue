@@ -1,11 +1,11 @@
 <template>
 
   <div>
-    <v-row style="margin-left: 15%; margin-right: 15%">
-      <v-col class="col-lg-4 col-md-4 col-sm-5">
+    <v-row style="margin-left: 15%; margin-right: 15%" justify="center">
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
         <BusinessCard :photo="require('@/assets/wangyonghai_1.jpeg')"></BusinessCard>
       </v-col>
-      <v-col class="col-lg-4 col-md-4 col-sm-5">
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
         <BusinessCard :photo="require('@/assets/gengxiaohui_2.jpeg')"
                       :name="'耿晓慧'"
                       :introduce="'专职律师'"
@@ -14,7 +14,7 @@
                       :Email="'邮箱：383382887@qq.com'"
                       :Area="'擅长领域：房地产公司对内对外非诉法律事务及政府法律顾问的承办工作及民事、行政、刑事等诉讼业务办理。'"></BusinessCard>
       </v-col>
-      <v-col class="col-lg-4 col-md-4 col-sm-5">
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
         <BusinessCard :photo="require('@/assets/wangxiaonan_1.jpeg')"
                       :name="'王潇楠'"
                       :introduce="'专职律师'"
@@ -23,7 +23,7 @@
                       :Email="'邮箱：1006543719@qq.com'"
                       :Area="'擅长领域：熟悉建设工程房地产、招投标、公司、合同等专业领域的法律事务。'"></BusinessCard>
       </v-col>
-      <v-col class="col-lg-4 col-md-4 col-sm-5">
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
         <BusinessCard :photo="require('@/assets/lingxue_1.jpg')"
                       :name="'凌雪'"
                       :introduce="'专职律师'"
@@ -33,7 +33,7 @@
                       :Area="'擅长领域：建筑房地产诉讼类、刑事诉讼、劳动争议解决类、民商事诉讼类。'"></BusinessCard>
       </v-col>
 
-      <v-col class="col-lg-4 col-md-4 col-sm-5">
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
         <BusinessCard :photo="require('@/assets/gexunde_1.jpeg')"
                       :name="'葛逊德'"
                       :introduce="'专职律师'"
@@ -42,8 +42,8 @@
                       :Email="'邮箱：gexunde@163.com'"
                       :Area="'擅长领域：擅长民事合同纠纷、交通肇事、公司法务、土地纠纷和房地产纠纷、行政诉讼。刑事领域内对渎职犯罪有浓厚的兴趣，并努力钻研于对渎职犯罪的睿智辩法。'"></BusinessCard>
       </v-col>
-      
-      <v-col class="col-lg-4 col-md-4 col-sm-5">
+
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
         <BusinessCard
                       :name="'唐云霞'"
                       :introduce="'专职律师'"
@@ -53,7 +53,7 @@
                       :Area="'擅长领域： '"></BusinessCard>
       </v-col>
 
-      <v-col class="col-lg-4 col-md-4 col-sm-5">
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
         <BusinessCard :photo="require('@/assets/zhanghuiliang_1.jpeg')"
                       :name="'张惠亮'"
                       :introduce="'专职律师'"
@@ -61,6 +61,12 @@
                       :PhoneNumber="'联系电话：18693112225'"
                       :Email="'邮箱：Zhanghl1982@yeah.com'"
                       :Area="'擅长领域：债权的变更转让；房地产开发项目的专项法务；合同类的诉讼业务；公司法人治理业务。'"></BusinessCard>
+      </v-col>
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
+
+      </v-col>
+      <v-col class="col-lg-4 col-md-6 col-sm-7">
+
       </v-col>
     </v-row>
   </div>
