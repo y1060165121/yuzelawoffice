@@ -1,8 +1,8 @@
 <template>
 
-  <div style=" margin: auto; ">
-    <v-parallax dark :src="require('@/assets/white_background_1.jpg')" jumbotron style="height: 120vh; width: 100vw; ">
-    <News style="margin-top: 10vh">
+  <div style=" margin: auto;">
+    <v-parallax dark :src="require('@/assets/white_background_6.png')" jumbotron style="height: 115vh; width: 100vw;">
+    <News style="padding-bottom:15vh;">
     </News>
     </v-parallax>
   </div>

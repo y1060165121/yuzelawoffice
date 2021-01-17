@@ -77,7 +77,7 @@
 
       <div dark
            :style="{'min-height': '100vh', 'background-image' : 'url(' + require('@/assets/white_background2.jpg') + ')', 'background-size': 'cover', 'position': 'relative'}"
-           class="fill-height">
+           class="fill-height pb-15">
         <v-row style="font-size: 36px;text-align:center; padding-top: 6vh; padding-bottom: 3vh">
           <v-col>
             <span style="font-weight: 600; display: block">专业人员</span>

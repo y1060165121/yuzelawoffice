@@ -2,7 +2,7 @@
 
   <div>
     <v-card class="mr-4"
-             v-animateOnScroll="{animation: 'fadeInRight', delay: 200}">
+            >
       <v-img :src="photoURL"
               height="60vh"></v-img>
 
@@ -33,8 +33,14 @@
 
           <v-card-text>
             {{fullIntro}}
+
+            <br>{{Area}}
+            <br>{{PhoneNumber}}
+            <br>{{Email}}
+
           </v-card-text>
         </div>
+
       </v-expand-transition>
     </v-card>
   </div>
@@ -60,8 +66,20 @@ export default{
     },
     fullIntro:{
       type: String,
-      default: '甘肃玉泽律师事务所主任，业务专长：城乡规划、国土及城市管理政策研究、房地产项目开发与经营、工程建设及相关领域法律服务。曾在政府部门法制及执法部门工作十余年，受甘肃省建设厅委托起草《甘肃省村镇规划建设管理条例》（草案）；起草《兰州市城乡规划条例》（草案）；《兰州市城市地下空间开发建设管理办法》（草案）；曾参与兰州市人大常委会及市政府法制办组织的兰州市城建、国土、房产等领域地方性配套法规、规章立法论证会百余次。先后担任过十余家房地产企业常年或专项法律顾问。在提供法律服务期间，协助多家公司进行重大项目商务谈判、处理诸多房地产项目疑难问题法律事务、审查相关业务合同文本、受托代理诉讼案件，最大限度地维护了客户的合法权益。'
-    }
+      default: '律师事务所主任'
+    },
+    PhoneNumber:{
+      type: String,
+      default: '联系电话：13893191313'
+    },
+    Email:{
+      type: String,
+      default: '邮箱：3177837018@qq.com'
+    },
+    Area:{
+      type: String,
+      default: '擅长领域：待补充'
+    },
   },
   data(){
     return {
