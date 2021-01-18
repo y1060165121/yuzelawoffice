@@ -7,7 +7,7 @@
                        :key="i"
                        :src="item.src">
         <div class="carousel_gradient"
-             style="font-size: 3vw;  margin-left: 10vw; margin-top: 45vh;display:inline-block"
+             style="font-size: 8vh;  margin-left: 10vw; margin-top: 45vh;display:inline-block"
              align="center"
              justify="center">
           <span>{{item.word}}</span>
@@ -19,17 +19,17 @@
     <section>
 
       <div dark
-           :style="{'min-height': '100vh', 'background-image' : 'url(' + require('@/assets/white_background_2.jpg') + ')'}"
+           :style="{'height': '100vh', 'background-image' : 'url(' + require('@/assets/white_background_2.jpg') + ')'}"
            class="fill-height">
         <v-row style="font-size: 36px;text-align:center;  padding-top: 6vh; ">
           <v-col>
             <span style="font-weight: 600; display: block">新闻资讯</span>
             <span style="font-size: 17px; display: block;">
-                  <svg height="5"  class="mr-2" style="max-width:100px; width:20%">
+                  <svg height="5" width="100" class="mr-2">
                     <line x1="0" y1="0" x2="100" y2="0.1" style="stroke:black;stroke-width:2" />
                   </svg>
                   <span style="letter-spacing: 3px">News</span>
-                  <svg height="5"  class="ml-2" style="max-width:100px; width:20%">
+            <svg height="5" width="100" class="ml-2">
                     <line x1="0" y1="0" x2="100" y2="0.1" style="stroke:black;stroke-width:2" />
                   </svg>
             </span>
@@ -55,11 +55,11 @@
           <v-col>
             <span style="font-weight: 600; display: block">专业领域</span>
             <span style="font-size: 17px; display: block;">
-                  <svg height="5"  class="mr-2" style="max-width:100px; width:20%">
+                  <svg height="5" width="100" class="mr-2">
                     <line x1="0" y1="0" x2="100" y2="0.1" style="stroke:white;stroke-width:2" />
                   </svg>
                   <span style="letter-spacing: 3px">Practice Areas</span>
-                  <svg height="5"  class="ml-2" style="max-width:100px; width:20%">
+            <svg height="5" width="100" class="ml-2">
                     <line x1="0" y1="0" x2="100" y2="0.1" style="stroke:white;stroke-width:2" />
                   </svg>
             </span>
@@ -82,11 +82,11 @@
           <v-col>
             <span style="font-weight: 600; display: block">专业人员</span>
             <span style="font-size: 17px; display: block;">
-                  <svg height="5"  class="mr-2" style="max-width:100px; width:20%">
+                  <svg height="5" width="100" class="mr-2">
                     <line x1="0" y1="0" x2="100" y2="0.1" style="stroke:black;stroke-width:2" />
                   </svg>
                   <span style="letter-spacing: 3px">Attorneys</span>
-                  <svg height="5"  class="ml-2" style="max-width:100px; width:20%">
+            <svg height="5" width="100" class="ml-2">
                     <line x1="0" y1="0" x2="100" y2="0.1" style="stroke:black;stroke-width:2" />
                   </svg>
             </span>
@@ -107,15 +107,15 @@
       <div dark
            :style="{'min-height': '100vh', 'background-image' : 'url(' + require('@/assets/mp-3.png') + ')', 'background-size': 'cover', 'position': 'relative'}"
            class="fill-height">
-        <v-row style="font-size: 36px;text-align:center; padding-top: 6vh; padding-bottom: 3vh;">
+        <v-row style="font-size: 36px;text-align:center; padding-top: 6vh; padding-bottom: 3vh">
           <v-col>
             <span style="font-weight: 600; display: block">联系我们</span>
             <span style="font-size: 17px; display: block;">
-                  <svg height="5"  class="mr-2" style="max-width:100px; width:20%">
+                  <svg height="5" width="100" class="mr-2">
                     <line x1="0" y1="0" x2="100" y2="0.1" style="stroke:black;stroke-width:2" />
                   </svg>
                   <span style="letter-spacing: 3px">Contact Us</span>
-                  <svg height="5"  class="ml-2" style="max-width:100px; width:20%">
+            <svg height="5" width="100" class="ml-2">
                     <line x1="0" y1="0" x2="100" y2="0.1" style="stroke:black;stroke-width:2" />
                   </svg>
             </span>
