@@ -4,7 +4,7 @@
     <v-col class="col-5">
 
     </v-col>
-    <v-col class="col-md-6 background-gradient py-15 px-10 rounded-xl" style="font-size: 2.5vh; margin-top: 10vh; margin-left: 0vw" cols="12">
+    <v-col class="col-md-6 background-gradient py-15 px-10 rounded-xl" style="font-size: 2.5vh; margin-top: 10vh; margin-bottom: 10vh; margin-left: 0vw" cols="12">
       <v-row class="pb-10"><v-icon  class="mr-3">mdi-map-marker</v-icon>地址:<span style="opacity: 0">:::</span> <a href="https://j.map.baidu.com/4a/jBY" target="_blank" style="color: black">甘肃省兰州市城关区南河北路956号高科·高新大厦B座10楼</a> </v-row>
       <v-row class="pb-3" ><v-icon  class="mr-3">mdi-phone</v-icon>电话:<span style="opacity: 0">:::</span>0931-8428395</v-row>
       <v-row class="pb-10"><span style="opacity: 0">电话:::::::::::</span>13893191313 汪律师</v-row>

@@ -2,7 +2,7 @@
 
   <v-card class="overflow-hidden rounded-0" flat>
 
-    <v-app-bar fixed shrink-on-scroll app
+    <v-app-bar fixed shrink-on-scroll
                color="rgba(46, 49, 49, 0.6)"
                elevate-on-scroll
                dark
@@ -55,9 +55,7 @@
                  class="mr-2 ml-2"></v-img>
         </v-btn>-->
 
-      <v-btn icon>
-        <v-icon>mdi-magnify</v-icon>
-      </v-btn>
+      
 
     </v-app-bar>
     <v-sheet id="scrolling-techniques-7">
