@@ -40,15 +40,15 @@
  <v-expand-transition>
    <v-sheet
      v-if="model != null"
-     
+
      tile
      class="mt-3"
 
-     style="border-style: none;border-width: 5px; border-color:rgba(88, 82, 48, 0.07);background-color:rgba(250, 250, 247,0.9)"
+     style="border-style: none;border-width: 5px; border-color:rgba(88, 82, 48, 0.07);background-color:rgba(191, 194, 196, 0.2)"
 
    >
      <v-row
-       class="fill-height"
+       class="fill-height pb-3"
        align="left"
        justify="left"
 
