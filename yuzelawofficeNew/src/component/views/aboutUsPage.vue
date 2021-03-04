@@ -1,6 +1,6 @@
 <template>
 
-  <div class="mt-10" align="center" justify="center" style="padding-top: 125px">
+  <div class="mt-10" align="center" justify="center" style="padding-top: 125px;">
       <v-tabs v-model="tab"
               class="mb-6" >
               <v-spacer/>
@@ -25,11 +25,11 @@
       </v-tabs-items>
       <v-row style="font-size: 20px;text-align:center; padding-top: 6vh">
         <v-col>
-          <v-tabs 
+          <v-tabs
                   class="mb-6" >
                   <v-spacer/>
             <v-tab
-                   style="font-size: 20px; color:black">
+                   style="font-size: 20px; color:black; margin-top:10px">
               典型客户
             </v-tab>
             <v-spacer/>
@@ -66,7 +66,7 @@ import Achievements from '@/component/views/achievements.vue'
         tab: null,
         items: ['律所简介', '律所经历'],
         text:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+          '资料正在整理中...'
       }
     }
   }

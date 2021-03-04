@@ -20,7 +20,7 @@
                     width="100%"
                     class="rounded-xl"
                     >
-                    <div :style="{'padding-top':vFlipWordsPadding,'font-size':vFlipWordsFontSize}">城乡规划、国土及城市管理政策研究 back</div>
+                    <div :style="{'padding-top':vFlipWordsPadding,'font-size':vFlipWordsFontSize}">资料正在整理中...</div>
             </v-card>
           </template>
         </vue-flip>
@@ -45,7 +45,7 @@
                     width="100%"
                     class="rounded-xl"
                     >
-                    <div :style="{'padding-top':vFlipWordsPadding,'font-size':vFlipWordsFontSize}">房地产项目疑难事务处理 back</div>
+                    <div :style="{'padding-top':vFlipWordsPadding,'font-size':vFlipWordsFontSize}">资料正在整理中...</div>
             </v-card>
           </template>
         </vue-flip>
@@ -71,7 +71,7 @@
                     width="100%"
                     class="rounded-xl"
                     >
-                    <div :style="{'padding-top':vFlipWordsPadding,'font-size':vFlipWordsFontSize}">房地产开发与物业管理 back</div>
+                    <div :style="{'padding-top':vFlipWordsPadding,'font-size':vFlipWordsFontSize}">资料正在整理中...</div>
             </v-card>
           </template>
         </vue-flip>
@@ -95,7 +95,7 @@
                     width="100%"
                     class="rounded-xl"
                     >
-                    <div :style="{'padding-top':vFlipWordsPadding,'font-size':vFlipWordsFontSize}">商铺租赁、工程建设、施工管理服务 back</div>
+                    <div :style="{'padding-top':vFlipWordsPadding,'font-size':vFlipWordsFontSize}">资料正在整理中...</div>
             </v-card>
           </template>
         </vue-flip>

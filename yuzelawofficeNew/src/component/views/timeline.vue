@@ -13,11 +13,10 @@
           </template>
       <div class="py-4">
         <h2 :class="`headline font-weight-light mb-4 ${year.color}--text`">
-          Lorem ipsum
+          资料正在整理中...
         </h2>
         <div>
-          Lorem ipsum dolor sit amet, no nam oblique veritus. Commune scaevola imperdiet nec ut, sed euismod convenire principes at.
-          Est et nobis iisque percipit, an vim zril disputando voluptatibus, vix an salutandi sententiae.
+
         </div>
       </div>
     </v-timeline-item>
@@ -33,24 +32,24 @@
       return {
         years: [
           {
-            color: 'cyan',
-            year: '1960'
+            color: 'grey',
+            year: ''
           },
           {
-            color: 'green',
-            year: '1970'
+            color: 'grey',
+            year: ''
           },
           {
-            color: 'pink',
-            year: '1980'
+            color: 'grey',
+            year: ''
           },
           {
-            color: 'amber',
-            year: '1990'
+            color: 'grey',
+            year: ''
           },
           {
-            color: 'orange',
-            year: '2000'
+            color: 'grey',
+            year: ''
           }
         ]
       }
